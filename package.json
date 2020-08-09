@@ -1,0 +1,19 @@
+{
+  "name": "node-express-s3upload",
+  "version": "1.0.0",
+  "description": "s3 API compatible express server to upload files remote object storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "kmagrawal.13@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.718.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.4",
+    "moment": "^2.27.0"
+  }
+}
