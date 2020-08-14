@@ -7,6 +7,7 @@ express server to upload multimedia files to any s3 compatible object storage so
 - connect to any s3 compatible object storage like : 
   - aws s3
   - minio
+  - vultr object storage
   - any s3 compatible cloud solution
 - express server
 - dotenv setup for easy development
