@@ -44,6 +44,13 @@ curl http://localhost:PORT/info
 }
 ```
 
+# Use Docker for server
+
+```
+docker build -t node-express-s3upload .
+docker run node-express-s3upload
+```
+
 # Upcoming features
 
 - Dockerfile to run as docker
